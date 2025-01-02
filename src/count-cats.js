@@ -19,7 +19,7 @@ function countCats(matrix) {
   for (let row of matrix) {
     for (let item of row) {
       if (item === "^^") {
-        catCount++;
+        catCount += 1;
       }
     }
   }
