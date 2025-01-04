@@ -23,15 +23,12 @@ function repeater(str, options) {
     additionRepeatTimes = 1,
     additionSeparator = "|",
   } = options;
-
   const additionString = Array(additionRepeatTimes)
     .fill(String(addition))
     .join(additionSeparator);
-
   const mainString = Array(repeatTimes)
     .fill(String(str) + additionString)
     .join(separator);
-
   return mainString;
 }
 

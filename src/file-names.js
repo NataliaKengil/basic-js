@@ -20,7 +20,6 @@ function renameFiles(names) {
   names.forEach((name) => {
     let newName = name;
     let count = 1;
-
     while (result.includes(newName)) {
       newName = `${name}(${count})`;
       count++;
