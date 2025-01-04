@@ -21,7 +21,6 @@ function getSeason(date) {
       throw new Error('Invalid date!');
     }
     const month = date.getMonth();
-  
     switch (month) {
       case 11:
       case 0:
